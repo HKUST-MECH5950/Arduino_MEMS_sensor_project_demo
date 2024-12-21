@@ -1,6 +1,9 @@
 # Arduino Sensors using Omron D6T Thermal MEMS sensor
 This repository provides sample projects for integrating **OMRON D6T MEMS Thermal Sensors** with the evaluation kits **2JCIE-EV01-AR1**, **2JCIE-EV01-FT1**, and various Arduino boards.
 
+**How the Omron D6T Sensor Works: From First Principles**
+The Omron D6T MEMS Thermal Sensor is an advanced non-contact temperature sensor that detects the surface temperature of objects or stationary human presence. Its operation is rooted in the first principle of heat transfer—the concept that all objects emit **thermal radiation** proportional to their temperature.
+
 The **D6T sensor series** enables high-sensitivity detection, including the ability to sense stationary human presence. This is achieved through:
 
 - **OMRON's unique MEMS and ASIC technology** for high Signal-to-Noise Ratio (SNR).
