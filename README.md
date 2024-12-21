@@ -8,7 +8,6 @@ The **D6T sensor series** enables high-sensitivity detection, including the abil
 - **High-precision area temperature detection** with minimal cross-talk field-of-view characteristics.
 ---
 ## Features
-
 - Supports multiple D6T sensor types and pixel configurations.
 - Compatible with Arduino boards like the **MKR WiFi 1010** and **Adafruit Feather ESP32**.
 - Outputs sensor data to USB-Serial ports for easy monitoring.
@@ -114,10 +113,6 @@ projects by another authors.
 
 **References**
 [OMRON D6T Datasheet ](url)
-
-
-## Licence
-Copyright (c) OMRON Corporation. All rights reserved.
 
 Licensed under the MIT License.
 
