@@ -1,32 +1,32 @@
-# d6t-2jcieev01-arduino
-It is a sample projects for D6T OMRON MEMS Thermal Sensors with
-evaluation kit **2JCIE-EV01-AR1**,
-**2JCIE-EV01-FT1** and some Arduino boards.
+# Arduino Sensors using Omron D6T Thermal MEMS sensor
+This repository provides sample projects for integrating **OMRON D6T MEMS Thermal Sensors** with the evaluation kits **2JCIE-EV01-AR1**, **2JCIE-EV01-FT1**, and various Arduino boards.
 
-D6T sensor series are High Sensitivity Enables Detection
-of Stationary Human Presence,
+The **D6T sensor series** enables high-sensitivity detection, including the ability to sense stationary human presence. This is achieved through:
 
-- OMRON's unique MEMS and ASIC technology achieve a high SNR.
-- Superior noise immunity with a digital output.
-- High-precision area temperature detection with low cross-talk field of
-    view characteristics
+- **OMRON's unique MEMS and ASIC technology** for high Signal-to-Noise Ratio (SNR).
+- **Superior noise immunity** with a digital output interface.
+- **High-precision area temperature detection** with minimal cross-talk field-of-view characteristics.
+---
+## Features
 
-
+- Supports multiple D6T sensor types and pixel configurations.
+- Compatible with Arduino boards like the **MKR WiFi 1010** and **Adafruit Feather ESP32**.
+- Outputs sensor data to USB-Serial ports for easy monitoring.
+---
 ## Description
-this Arduino sample projects for acquiring data from sensors on 2JCIE-EV01.
-sample projects output the sensor data to USB-Serial ports.
+This project provides Arduino sample code for acquiring and displaying sensor data from OMRON D6T thermal sensors using the 2JCIE-EV01 evaluation kits. Each example outputs data in a readable format via USB-Serial.
+### Supported Configurations
 
-| example | sensor type                | pixel number           | board |
-|:-------:|:---------------------------|:-----------------------|:-----------------------|
-| d6t-1a  | D6T-1A-01 / D6T-1A-02  | 1x1   | Arduino MKR-WiFi1010/ Adafruit Feather ESP32 |
-| d6t-8l  | D6T-8L-09   | 1x8   | Arduino MKR-WiFi1010/ Adafruit Feather ESP32 |
-| d6t-8lh  | D6T-8L-09H   | 1x8   |  Arduino MKR-WiFi1010/ Adafruit Feather ESP32 |
-| d6t-44l | D6T-44L-06 / D6T-44L-06H   | 4x4   | Arduino MKR-WiFi1010/ Adafruit Feather ESP32 |
-| d6t-32l | D6T-32L-01A   | 32x32   |  Arduino MKR-WiFi1010/ Adafruit Feather ESP32 |
+| **Example** | **Sensor Type**            | **Pixel Configuration** | **Supported Boards**                           |
+|:-----------:|:---------------------------|:------------------------:|:----------------------------------------------:|
+| `d6t-1a`    | D6T-1A-01 / D6T-1A-02      | 1x1                     | Arduino MKR WiFi 1010 / Adafruit Feather ESP32 |
+| `d6t-8l`    | D6T-8L-09                  | 1x8                     | Arduino MKR WiFi 1010 / Adafruit Feather ESP32 |
+| `d6t-8lh`   | D6T-8L-09H                 | 1x8                     | Arduino MKR WiFi 1010 / Adafruit Feather ESP32 |
+| `d6t-44l`   | D6T-44L-06 / D6T-44L-06H   | 4x4                     | Arduino MKR WiFi 1010 / Adafruit Feather ESP32 |
+| `d6t-32l`   | D6T-32L-01A                | 32x32                   | Arduino MKR WiFi 1010 / Adafruit Feather ESP32 |
 
-
-## DEMO
-sample output for D6T-32L
+## DEMO Output
+Below is a sample output for the **D6T-32L** sensor. The data includes the PTAT (Proportional To Absolute Temperature) value followed by an array of pixel temperatures in degrees Celsius.
 
 ```
 17:55:54.514 -> PTAT:35.4
