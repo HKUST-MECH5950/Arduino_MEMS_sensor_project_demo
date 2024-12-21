@@ -71,7 +71,7 @@ see `https://www.arduino.cc/en/guide/libraries`
 None
 
 ## Links
-- [[Video about applications of Omron D6T Thermal Sensors]](url)
+- [[Video about applications of Omron D6T Thermal Sensors]](https://econtroldevices.com/omron-d6t-thermal-sensor-for-human-body-temperature-measurement/)
 - [Arduino samples for 2JCIE-01-AR1/FT1](https://github.com/omron-devhub/2jcieev01-arduino)
 - [RaspberryPi samples for 2JCIE-01-RP1](https://github.com/omron-devhub/2jcieev01-raspberrypi)
 - [RaspberryPi sample for D6T on 2JCIE-01-RP1](https://github.com/omron-devhub/d6t-2jcieev01-raspberrypi)
