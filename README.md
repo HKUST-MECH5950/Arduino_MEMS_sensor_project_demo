@@ -112,6 +112,9 @@ projects by another authors.
 - [d6t-grove-arduino project](https://github.com/omron-devhub/d6t-grove-arduino)  
     only for element 4x4 type, but libralized.
 
+**References**
+[OMRON D6T Datasheet ](url)
+
 
 ## Licence
 Copyright (c) OMRON Corporation. All rights reserved.
